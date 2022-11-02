@@ -1,0 +1,19 @@
+@charset "UTF";
+
+/*
+PALETA DE CORES
+
+#D7D7D9
+#133340
+#18778C
+#5BCCD9
+#A66B56 
+*/
+
+:root{
+    --cor1:#D7D7D9;
+    --cor2:#133340;
+    --cor3:#18778C;
+    --cor4:#5BCCD9;
+    --cor5:#A66B56;
+}
