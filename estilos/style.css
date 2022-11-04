@@ -10,6 +10,14 @@ PALETA DE CORES
 #A66B56 
 */
 
+
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
 :root{
     --cor1:#D7D7D9;
     --cor2:#133340;
@@ -17,3 +25,93 @@ PALETA DE CORES
     --cor4:#5BCCD9;
     --cor5:#A66B56;
 }
+
+
+body, html {
+    background-color: #133340;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    background-color: #D7D7D9;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagem >img {
+    background-image: #ffffff url(//imagens/undraw_Online_test_re_kyfx.png) no-repeat;
+    background-size: cover;
+    height: 198px;
+    width: 250px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 3px 1px 3px black;
+    
+    
+}
+
+
+section#login > div#formulario {
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 1px 2px 3px #133340;
+    border-radius: 10px;
+    
+}
+
+section#login > div#formulario > h1{
+    padding-bottom:10px ;
+    text-align: center;
+    
+    
+}
+
+form#form1 > div#login1 {
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
+ form#form1 > div#senha1 {
+    padding-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 89px;
+}
+
+form#form1 >  input#enviar1{
+    background-color: #18778C;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+    color: #D7D7D9;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px black;
+    width: 225px;
+
+}
+
+form#form1 >  input#enviar1:hover{
+    background-color: #133340;
+}
+
+
