@@ -66,6 +66,10 @@ section#login > div#imagem >img {
     
     
 }
+section#login > div#imagem >img#itablet{
+ display: none;
+
+}
 
 
 section#login > div#formulario {

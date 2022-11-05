@@ -14,32 +14,34 @@ GRANDES TELAS ACIMA DE 1200PX
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
-        width: 80vw;
-        
-        
-        
-    }
-   
-   
-    section#login > div#imagem > img{
-        float: left;
-        width: 35%;
-        height: 72vw;
-        background-size: cover;
-        
-        
-    }
-    
-    
-
-    section#login > div#formulario {
+        width: 90vw;
         float: right;
-        width: 65%;
+               
+    }
+    section#login > div#formulario {
+        padding-bottom: 100%;
+
     }
 
+    section#login > div#formulario > p{
+        padding-left: 10px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
     
+    section#login > div#imagem >img#icelular {
 
-    
+        float: left;
+        height: 700px;
+        display: none;
+        
 
+    }
 
+    section#login > div#imagem >img#itablet{
+        float: left;
+        height: 700px;
+        background-size: cover;
+    }
 }
