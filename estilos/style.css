@@ -56,19 +56,16 @@ section#login {
     border-radius: 20px;
 }
 
-section#login > div#imagem >img {
+section#login > div#imagem {
+    background: url(../imagens/undraw_Experience_design_re_ca7l.png) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 300px;
-    width:350px;
     display: block;
     border-radius: 10px;
     box-shadow: 3px 1px 3px black;
     
     
-}
-section#login > div#imagem >img#itablet{
- display: none;
-
 }
 
 
