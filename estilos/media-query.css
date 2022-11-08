@@ -19,27 +19,34 @@ GRANDES TELAS ACIMA DE 1200PX
     }
 
     section#login > div#imagem {
-        background: url(../imagens/undraw_Experience_design_re_ca7l.png);
-        float: left;
-        width: 30%;
+        background: url(../imagens/tablet2.png) no-repeat;
+        float: left ;
+        width: 47%;
         height: 100%;
-    }
+        background-size: cover;
+        border-radius: 0px;
+        
+    } 
 
     section#logim > div#formulario {
         float: right;
-        width: 70%;
+        width: 100%;
+        
 
     }
 }
 
-@media screen and (min-width:992px) and (max-width: 1200px) {
+@media screen and (min-width:992px) {
     section#login {
         width: 992px;
+
                  
     }
 
     section#login > div#imagem {
-
+        background: url(../imagens/tv.png);
         
     }
+
+    
 }
