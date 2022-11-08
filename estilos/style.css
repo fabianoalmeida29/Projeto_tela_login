@@ -28,6 +28,9 @@ font-size: 20px;
     --cor4:#5BCCD9;
     --cor5:#A66B56;
 }
+body{
+    background-image: linear-gradient(to top, #5BCCD9 ,#18778C, #133340, #D7D7D9 ) ;
+}
 
 
 body, html {
@@ -54,6 +57,9 @@ section#login {
     width: 350px;
     height: 700px;
     border-radius: 20px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
