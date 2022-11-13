@@ -47,6 +47,7 @@ main {
 }
 
 section#login {
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -108,4 +109,44 @@ padding-bottom: 30px;
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+form > input.botao{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    width: 90%;
+    height:40px;
+    background-color: white;
+    box-shadow: 1px 2px 1px  #6b57ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input.botao:hover{
+    background-color: #6b57ff;
+    color: white;
+}
+
+form >  a{
+    display: block;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    background-color:#6b57ff58;
+    box-shadow: 4px 2px 1px  #ffffff;
+    text-decoration: none;
+    
+}
+
+form >  a:hover{
+    background-color: white;
+    color: #6b57ff;
+    font-weight: bold;
+    box-shadow: 4px 2px 1px  #6b57ff;
 }
